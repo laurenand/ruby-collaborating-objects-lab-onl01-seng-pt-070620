@@ -26,6 +26,7 @@ class Song
     else 
       self.artist.name = name
     end
+    binding.pry
   end
   
 end
