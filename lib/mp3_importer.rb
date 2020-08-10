@@ -8,9 +8,8 @@ class MP3Importer
   
   def files
     Dir.entries(path).select do |song|
-            song if song.size > 2
-        end
-        binding.pry
+      song if song.size > 2
+      end
   end
   
   def import 
